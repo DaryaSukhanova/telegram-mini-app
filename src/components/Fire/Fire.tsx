@@ -19,8 +19,8 @@ export const Fire: FC<FireProps> = ({ points, setPoints, energy, setEnergy }) =>
       return;
     }
     
-    const x = e.clientX;
-    const y = e.clientY;
+    const x = e.pageX;
+    const y = e.pageY;
 
     setPoints(points + pointsToAdd);
     setEnergy(prevEnergy => Math.max(prevEnergy - energyToReduce, 0));
