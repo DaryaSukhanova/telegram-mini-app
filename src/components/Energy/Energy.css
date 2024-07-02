@@ -43,9 +43,9 @@
     cursor: pointer;
   }
   
-  .boost-button:hover {
+  /* .boost-button:hover {
     background-color: #666;
-  }
+  } */
   
   .boost-button-text {
     font-size: 15px;
