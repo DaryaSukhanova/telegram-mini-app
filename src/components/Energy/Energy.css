@@ -1,0 +1,59 @@
+.energy-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    align-items: center;
+    color: #fff;
+    letter-spacing: -0.4px;
+  }
+  
+  .energy-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .energy-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+  }
+  
+  .current-energy {
+    font-size: 20px;
+    line-height: 25px;
+    color: #F26D29;
+  }
+  
+  .max-energy {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .boost-button {
+    background-color: rgba(128, 128, 128, 0.3); 
+    border: none;
+    border-radius: 20px;
+    padding: 16px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 18px;
+    width: 112px;
+    cursor: pointer;
+  }
+  
+  .boost-button:hover {
+    background-color: #666;
+  }
+  
+  .boost-button-text {
+    font-size: 15px;
+    color: #fff;
+    mix-blend-mode: normal;
+  }
+  .data-energy{
+    display: flex;
+    flex-direction: column;
+  }
+  

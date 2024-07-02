@@ -1,0 +1,19 @@
+.timer-container {
+    text-align: center;
+    color: #fff;
+    letter-spacing: -0.4px;
+    padding: 8px 16px;
+  }
+  
+  .timer {
+    font-size: 15px;
+    /* font-weight: 400; */
+    line-height: 20px;
+  }
+  
+  .timer-status {
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  

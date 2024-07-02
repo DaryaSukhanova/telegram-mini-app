@@ -1,0 +1,45 @@
+.fire__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 13px;
+}
+.coin-counter__container{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.coin-counter{
+    font-size: 48px;
+    font-weight: 700;
+}
+.fire{
+    position: relative;
+}
+.fire-img{
+    object-fit: contain;
+    width: 100vw;
+    /* max-width: 800px; */
+}
+
+.gain {
+    position: absolute;
+    font-weight: bold;
+    opacity: 0;
+    font-size: 24px;
+    line-height: 28.64px;
+    font-weight: 800;
+}
+
+@keyframes gain {
+    0% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  }
