@@ -23,6 +23,18 @@
     width: 100vw;
     /* max-width: 800px; */
 }
+@media (max-height: 710px) {
+    .fire-img{
+        height: 400px;
+        /* object-fit: cover */
+    }
+    .coin-counter{
+        font-size: 40px;
+    }
+    .coin-fire{
+        width: 60px;
+    }
+ }
 
 .gain {
     position: absolute;
